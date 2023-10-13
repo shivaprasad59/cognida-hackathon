@@ -1,0 +1,610 @@
+{
+  "users_data": [
+    {
+      "firstname": "Shiva",
+      "lastname": "Prasad",
+      "password": "@Shiva59",
+      "mobile": "8977648610",
+      "email": "manginapallyshiva@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "Jayakar",
+      "lastname": "kandula",
+      "password": "shiva",
+      "mobile": "89775527892",
+      "email": "kandula@gmail.com",
+      "id": 3
+    }
+  ],
+  "fashion": [
+    {
+      "itemid": 1,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 250,
+      "type": "mens wear"
+    },
+    {
+      "itemid": 2,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 450,
+      "type": "womens wear"
+    },
+    {
+      "itemid": 3,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 350,
+      "type": "children wear"
+    },
+    {
+      "itemid": 4,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 299,
+      "type": "mens wear"
+    },
+    {
+      "itemid": 5,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 999,
+      "type": "mens wear"
+    },
+    {
+      "itemid": 6,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 1999,
+      "type": "womens wear"
+    },
+    {
+      "itemid": 7,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 1213,
+      "type": "womens wear"
+    },
+    {
+      "itemid": 12,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 785,
+      "type": "mens wear"
+    },
+    {
+      "itemid": 14,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 899,
+      "type": "children wear"
+    },
+    {
+      "itemid": 15,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 899,
+      "type": "children wear"
+    },
+    {
+      "itemid": 16,
+      "image_url": "https://m.media-amazon.com/images/I/71On2XSPuRL._UY679_.jpg",
+      "price": 899,
+      "type": "womens wear"
+    }
+  ],
+  "cart": [],
+  "trending": [
+    {
+      "url": "https://img.freepik.com/free-vector/promotion-fashion-banner_1188-201.jpg",
+      "id": 1
+    },
+    {
+      "url": "data:image/png;base64,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",
+      "id": 2
+    },
+    {
+      "url": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFhUYGBgaGhoeGhwcHBoaGhoaGhwaGRoYGhwcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QGhISGjQhISE0MTQ0NDQ0NDQxNDQ0NDE0MTQ0MTQ0NDE0NDQxNDQ0MTQ0NDE0NDQ0MTE2MTQxNDE+P//AABEIAKABOwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAADAAECBAUGBwj/xABMEAACAQIEAgcFBQQFCAsBAAABAhEAAwQSITFBUQUGImFxgZETMqGxwQdC0eHwFFJy8TRic4LCIyRUdJKis8MXM0NEU2SDk6Oy0hX/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQIDBP/EAB4RAQEBAAICAwEAAAAAAAAAAAABEQIhMUEDE2ES/9oADAMBAAIRAxEAPwDEpqVKgelTE0K7iFUSTPhrwmgLT1UbEsTCIT3nQTpx240e1mjtb/rT6UE6YinJpUCoWJWVnkfnRKeJBHMUFQLTOIBNFQaVMLUGb7YyeHiZ1ggjw1NASM4zszDXQGN9eG+oH6FXcZbG/wCu+grkB2PDgT4UJxvm1WxmKTIUS2AGG+k6a8OOnOpYC7AAnQ/Dv/XOo3rWaSBHGP15ih4Sw5BAUnwH12pG8jYxNvMI5jXwiufxOFKHhHOPnXQJh3KAEhTEE7n4URMCsQ3a+Aq9suZw2GzMAzRPH5etbwwMBQo2/U/rnV6zhkT3UA8tfWi1dRnWej27MkCJ218KtNhVIAImOfp9aKzxwJ8vqdKQf9frSs4u0ltgaAAeAipUgaVVCNNlp6VA0UzOBUqq41dJHj6UBy/63PoKp4xruYBMscSf1x14cKtoxIEcqpdJXgFj2qI3f2jHGF40B7mq+B+dVlfKxzGFjhrA56ce7urPTphEUrL3SeJAQeHOPLjVW50259xUSeQlvU0Vs33Z7bBMzEwASCoA4mWA4UNMWiQXdcw3Ve2Z4jSsK77R/fcn+I6em1MtpF94yI8NaI17/Tyj3UPizZR4wsmKqr0hfuFggYgCW9mh0HNmgkDvMVUXEovuqPIV2X2bdKuP22yz5LTYW8+Q5QDchEDAnXNl0gUHG3LTlfaMHKTGcqzLP7uc9me6hGy2T2ns3KExnytkzcs0RPdXsVq3irfRVxLl7D3C2GyrZzIlu1bCE5uys3LpBiNBIHib56StlDd/aMOeizg8gw/Z9p7XbLkyzmiRE78ONB4Q5Yd1FtvoNa0ul79u4tgJh7dgpaCuVLH2jySWaSfXfUySAsZfsx+9UHY/tQMZQWnjBgQQCSY03qL3GgMxVBGskaa67iDpQemXZbeZWKwy5o3ykwdeGpBrJsYfPDASeLN2m9TqKou3MZbGrO1wgD3V7PDSdtSBxoQ6RIHYtoo0Mscx2iYHGO+hjDntBmAjhufnyqK4YFCBr6ceVFHTHPnRmclSwBEACDpt3TNbtYgwoKhIMkRPwBmtbC3MyKx3IE9x2I9Zp37Tr0mwqKcqmaZR+v14VPYeKcU1KqBokEjvPx1qTpIoop6Co1gnSB+dMmAHEzpGnjNWnMAnkO8/AUFMRIkAt5QNiePDTepi6mmHQbKPn86LVZ7x5gbz948I20moZCwiGPe3ZGvcPAVUXAeVM0xpUbSZQBA21jnU6AUnifTQfU0+ellqSrQRemojbVEud4AHefwoJIsU9AfFIOM+GtV26Q1IC7c+/u9aC/Q719EEuyqO8gfOs58S54x4aVR6Wt57StxRo/ut+YFBev8AT1pdizn+qNPUxVIdOO5yokDmAXb0EAVhI+VgSJAIMHUEcRXZpdECNB3VLVxk3MJibm7so1nMwH+6n1qdjq+g99ye4AKPqa02u0NrtS0w1vA2kHZRfE6n1OtYvROEQveV0RyiH2avc9krOLtse8XTXIXMTwmNK13uVhdJo2cxPag90jT6CnG9rY6fE9F4QG0QUe2SS7e2GbQ3ewD7b+qgB9nqCDOtVR0Xg8im0RfuQezduexzjNJYjOuUqsALmE9ptYgc6LFxu6mFpF95x4DU+g+tUbNzBWz7f2DIcl23km4iZrZW8XylyocBltiR3H71XcRg8GQoNwOUBDlGbV7am4cocKpDxcthkLAFLZntkHlr1yD2QQP6w13IkDlQ87Hcn5US11+GwWD0LLaRCilbhvDP7Vss2mQtKqpdhmIGiKxaGqjls2wyutt7gw+Yk3CYve1ZQk23ysfZsrZRO3jXOoBTxRNbPWOzbQobWQBw0qHFxxBEM5W466g6EFZynsrWHmPOpZfSn9n4etUdri7OdHT95SPMjSs7A2iUVgD2wCdQAunHiddK1qzVS+uZECBMzEMxJMOcxAUciTvQGGDBYFnnQCBrtUWFi17zKD/WbX/Z/Kg//wAxj795z3L2F9BvQ8LgkQgqm3Ej8daumLC9Lhv+qtu/eFyp6tRsArhTnUKSzEKDmgMZifEmivfjkPGgNixzn5VnYuLZao5qzmxvKPnSX2j7Kx8dBU2rkaLXgNyKmDVXDYMjV4+dXQtWalz0ZalSpVUKqotkzILbiWOnoOGgq1QnXXn+v1woBohjVo7kEDw0qSALsDPEkknzpnIHvEDxPhwM0J8Wo5tt4a6caCyDPE+X40SsNulXz5CqqPunf5+dEa4zbkmhjRuXQN3jw1P1qrjOkwiEquYjTUxVeqfSfuRzIqVYvLj3ZQfdkTp8agzEnUzPPXx+lQQQB3R8oPwipcPD+XyqhJt4aelRfQg+R89vj86nsfH6afhTMsiKIepBMyOn7ymPEaihq2k+vdG/1odvFQ65BmgjMeAEgNrxMHagwLgrd6PxEovcI9NKzekrWS468mkeB1HwNCsYxlBETJrONa3zcob3wNzWM2NY7kjw0qdntKTJ32+utKStBsUOGtV7l4E9ojTas665kjlUVUtxpOJeTQdrbGSXdtDBOkjNpHLUevjUmvBZyqiD4nkPKqKWO/0oioo4VrKTlJO5od2+7nUk7x5moMh41ZLUG40irjGhgQRUjvyqBpTUVLNOkmoTTilNB0nRdt1dmJ7BB301MGY9RNXnxSj73pVYYS424j+I0dOjB95ifDSs9tdKr4o/rSkLjv7oJ8Bp61p28Ki7KPPX50erhrITo9zuQPiasp0av3iW+Aq1mJ4gfGpKO8mmJtRt2FX3VA8tfWiUqaqh6VRLUpoL2C6LvXQWt2ncAwSokAwDHoRRX6BxY/7tePgtdv8AZh/R7v8Aa/4Erqsf0hasgNduJbUnKGZgoJgmATxgE+VB4jiejMYmpwl1Vic2RmiOcDSsc3y3vEx3aV9AYPprDXTktYi07fuq6s0c4Bmub699U0v23v21C30BY5RHtFGpVgN2gaHfhQeOswK6Dv8ATX6UmHxH8vrSTj4/PX6mvReofUlXRMRiVzAibds7EbB3HEHgu0amg89Toa9iV/yVm48bMiMwBjiQIFFPRGKtKTew15Au7MjZYHHMBFfRdq2FAUAAAQAAAAOQA2olF180zVTGsDlA1lh8K9o659RbeIU3bCKl9e1AAC3I+6RsGPBue/d4nexILiQy5C2YEQQw7MRvIM1KRs9H9EYm+pa1Yd1BykqJAMTGncQafH9EYiwue/ae2hMSwygtBMeMLPlXo/2NXw+GvETpfI1/gQ/Wg/bis4OwP/Mj/hXYoPK0xCEwDJGpjlOUmfOiXL4Bjc8hv+VY2GQEqDpqPTl+udbNlQBAEc+/votgK2ixhjA94KDvzk+nrV3B4R3OS0jOR91FLGNtlHhXSdS+qhxr53JWyh7RG7tE5FPDSCTw056eyYHAW7KBLSKijgojzPM95qpr566f6sYzsP8Ast8gpDRbcwV0kgAkSDx5VyYWCVYEEGCDoQRuCNwa+vK5rrZ1Pw+OUi4gFwDsXVADqeEn7y/1Tp4b0R82ZlHKjJdldOH86L050Rdwl98PdEOp3Husp1VlP7pH1HCqSGAaliwnbtTvSFwzUXNNNWJVgPUC9DzU01dTEy9RLVGlUUqVGtYV291Tz5CPOjrgD94xQxSpVoLhVHCfGg3MPqYouO2zCmzUwid5IqWaiGg0gKVKgeaaaVMTQPSoL4lB94eWvy8R60rOIDEgDbb4zPLbjzFAalSpUHpX2Yf0e7/a/wCBKb7VlnBp3XlPolw0/wBmH9Hu/wBr/gSupx/R9u+oW6iuoMgHYGCJ9CfWg+dVdwyNbkOHQpHvZwwy5e8mB519JW5yjNExrynjWZgermFsuHt4e2jDZgskcNCdvKsnrz1kXC2WRGHt3UhF3KZtDcblGsTuR40HlPRnR6Xsclgao92P/TVyT55Jr6AtqAAAIA0A5DgK8D6nXxbxmGdzP+VVSTpGcFF/3mHrXvxFB4Z1s654jE3nW2zW8OrFUAYobgU5S7EasDOg21HE1mdCdasRhnV0vEqD27ZYujDTswTod+0ACI79cbrDgXw2IuWLiksjHKWk5kJ7DrtIIj0jhVFHd2CICzMQqqogsTsoA3M1nWsfUXRmOW/Zt3k924iss7wwBg99eH/at0YtnHOyiFvItzuzksjx5qD4tXsvVfo44bCWLDasltQ0bZolo7pJryj7Y8UGxqIP+zsjMe9mZo9Ap/vUvgnl0v2JNOFv/wBv/wAu3UftyH+Z2P8AWV/4V2ifYoP81v8A9uf/AKJUftwH+Z2P9ZX/AIV2rPCXy8TtmNvL5itpHnXmJ9N/p6Vhxr+vH8a0sI8oR+78jM/WpFvh9HdVujxYwtm2BBCAt3uwzMfUmuL+0brXctv+y2HKEAG46mG7Wqop+7pBJGuo767/AKKxAuWbdwbOiMPNQa8j+0/o5reNN4g5L6rDcM6LlKeOUT/I1plg9H9KX1fMl+4rkHtZydY0JBMNqOM1679n/WQ47Ci46hbqMUuAbZ1AOZeQIIMcDI4V4kjQQeRr1/7MOhmsWLtxhHt7udR/UyqAT4nMfCKDnft16MU28PiQO0rm0x5qys6z4FWj+M143Ne4/bliQMHZtyMz3wQOOVEfMfIsnrXiWGtF2gRtxoBgcqfLtqPn8BV1sDAMkkTygTVdLRYwqk+GvjUnKVq8LJLfaCW52Bb4CrCYRjOwHqauYZ+yNNfjI0qSnlUvKvVw+Djm3tRGFAMGTp+vpWng0VVlVGedSRICwdRzO29V7ykEE8/n+cVr4W+ipAH4k9/KrL04/LxnHlkPh7IiSylN9BAJ+vhT9MXSqaJmJ2MSF/rGiIjLtBn7nAefD5d1WApMcBvHf3xwqxz/ABypusPeE94pv2lOfwNdC/RiNq8k8YOUEnuG1SXoqz/4a+tVNGtWVXYcuJO2golVfaOR2VA0mTpy0id9+7vqDjUB3Eb8D2gwKwOQH0qIstfUa5h5a/LwqBxIM5RJBAjnJIG22ooaIo91CSNBOg0IH0+FTS02+izvGp20AnzoGcuwBXs6GZ4GCNR5gx3Uy4bNBLk8dNpgwZ4iDRRh1+9LeJ8PwoqqBoBFAK3hlAggHnI+nkPQUalSoFSpUqD0r7MP6Pd/tf8AAlXuvPSd3D2Ee0+RjcCkwrdko7RDA8VFcV1a61NhEdBaD5nzSXKx2QsRlP7tP1k61ti7a2zaCZXDyHLTCssRlH73woMzpHrjjj2f2hgCPuqinv1VZFcsLjNLMxZiTLMSWJnck6k6Cr+OXsg8j86zk3Yd4Pw/EUBEK7tMDXTQyNQRHhXt3UzrKuLtQTF5AM6ncjbOo4qfgfKvEKWHxDIVdWZWQyGUkMCu8EeflUH0D0z0BhsUAuIspcicpOjLO+Vlhl8jVboTqjg8K2axh1R4IzEs7gHcBnJIHhXl2B+1jF2pW7bt34MBtbbkcJKgqT/dFGxH2vYl+zaw9q2xIEszXInjEKKbFyvUesfTtrB2WvXToNFUe878EUczz4CSdBXzl0v0k+IvPfcjO7FjyHAKO4CAPCtbpXpK7iHNy87O0cdgNiFUaKNOFYWKtRtt8qlXi9k+xT+i3v7f/l267PpzoKxi0VMQmdVbOozOsNlZZlSCdGbTvrxbqN12bA2ntLYW5mfPJcpHZVYjIf3d++up/wClh/8ARF/90+f3OWtJeizt0v8A0adGf6N/8t7/APdeUddOjrWF6QezZTJbyW4XMzQWUHdiTv38a6279rd0aLgVczELdY6cDpbri+sdy9j8S2Ia0LOdUGUtmjKsTMAz5ChP16B9mHWdQowV0wQT7Jjs0mShPPWRzmOAn0TG4O3eQpcRXQ7qwBGmoOvHvr5+tdHx7zSYExoJHGux6J65YmyoQkXVG2eSw/vAyfOa0y7fC9S8Cj51w6lpkZmd1B4EKzEfCtzFYlLaNcdlVFBLMxhVA3JPCuAufaLcjs4dAeZdmHoFHzri+unTF/F2W9o/ZWGCL2UGU7xxMTqZoMT7QutP7fic6yLKAraB0JEyzkcCxA05Ktc5g3AdCdpAPgdD86D3VcsdF3n2Qgc27PzoNPpfDqMhRdwRGpOmx11/lVEI6jUqskNqQDp3b8TW/h+jYAzsZjULoJ467nxq1bwqKZCCee7ep1rP8ul57JLOo57D23JMKWJ7QgRuY3Oh2+NHXA3idEVe8sPkNa6GlTF+7lmTpkWuh599y3coiPPjWhZwiLsuvM6/Oj0q1jneVvmlSpUqIVKlSoK4sc2ZtIgnTaDoKmttRsB6VImmnuoJUqbWmyef67qCVMzAbmPHv0FIUHG28yMo3IMfxDUfGKCbXVDBZ1OwqymFc22uhDkRgrNwDNsP1zHMVlPeDKl3Qfgw1rqMP00iWhY9kChR1cyc5a5BLrrl0KW4kH3KCjgujbt1cyKCMwTV0UlyJCKGILMRwE1WNtonK25A0OrDdfHuq3humfYWSoRCwuC4HdVcLlQgFVP3wdQaOetPYtsvtC7LaHacexRrTLcF1ViQ7FBM/vPvNBmKpiSpGgPltv46VM2mkjK0jcQZGk6jw1ro7vWhZXJZCqty2VEj/qrfaW3tvmLPPOKBj+sRZHRC651tqHLAPlRrjMpK6kHPG/A+FBi9JdHuha26w0agENBiYOWRPMcKzbfRN5r62FSbjoGVAVkjIbkzMTlMxXYnrGjO7ulwn2tx07Q0FxPZ5GngogiK5y/0uExaXgrDLaa2ADBk4Y2gwPDWG8qiqDYC4ttbpRgjllVuZT3tN4HE+PKlh+jLrqWRCylnXSJ7Ke1bTeAkmeOw1rdXrUXXLiAz5vaqxTKsJctC32FOmYEFjOhzHnRV6xAsmRLyIM0srAPlOFGFEHQZg0OP4RRHD3ujbj30toAXuqpVQy6yCIJmFPZMgxFQxHRd2w6Z0gMMyMrK6sAY0ZCVPaERM611a3P87wuJMxYREKkyzlM/anYTnq7g8YmVrd1P8nCZEtKltEZLgu6KBHaYakydvCpjWuURGOyNvGx31P8Ahb0PKnudGXHDKEYESTIIiNyeIr0BOsKlwSXRAmIgK2ue6bjKywNG7YGY7UydYkBGl4BDaIZXAuXPZhhlunipzeUcauJrgcF1fZYZ2OugAUkE7QCdzrWvhuipbIqFnAYw2/YUs2h4gBtK6YdZUVbZKOTbLSAwUKrJcSEAgSM8gkSAsSZrLu9NF8SuIQHslIDRmIQAENGmoBHHQ7mmGgr0dcAU5IDI1wbAFFkFvh8udAZCIkHUSNDqOY5itfGdPF1dBbABZRbkzksj2ZNqBuCbNs/7XOpYnrdbRi2Z8xa64LuGa21xGQLbyiQgmefZXlVRjpYdldghhFLMToAAyod9yC66DXWrWM6LuW5nI8OUOQlsrgAlGBAIMEd1Cv8AXO2bTJkvszWltkZgLUq6v7SDrnMGTG7E8aHievN0vddQUDpcW3lIz22fKAxI0JGXffblTBHIdDB1MDQ6naBzNV7t1dVMnXI2hIDNplYgQpPI1eXroMlgZLga2beYj2ZX/Jo6Z7YcGGbNqNNC2pkEA6Q60W3tX7apeHtGDIDckK0WwXZgcxn2fusWUdmIy63AfCdBMtv2iJbVNpD2wZ1hSM2bNodN9Kjfwjo5RlOcEiN5IJBiPe1B1HKiYbHD2ITKdbiXJ4QqMMvj2vhW2nWYZ2Z1dsz3yDmlkS6bZCpO0ezIiQIY1Byr4V2JIZgug7K7HY685IHnRLWGK5tGMGWkHQnTXTTUca6K51mYk5c6yL8w2WTdCBGIWBmXLM8zU16yjLcGV8zRrIOY+wSy3tJ3EoW4++fGg5ulUWcDcgcNTFBfGIDlmTIHmdKCxSqt7Zz7qRqdSYEa6igOW+/cC6bKdYI+UhudBde6q7sB4mgHHKdFljyg+O/hVe3ELCF4Bhj/ABmR5R+pqxYuEEqyqogQF3+8DoO4D1oJWrjk6plXvOuwjT1qxUM54KfPT86ftd1BFxUJjiTRKi60EA5jnHx86dbwJC7MRMHeh33CifQczVSxZztnaQRqCNNeXh3UB77lbia6MGUjhPvD5H1q2wmPH9ChX8Or5c33TI8aNQBTDKFyRKyTB1Gpn0ok0n20qFtSBB8qCF1xvlJg8iPSYnxqtdtm5AdIWZ97tSNoj8atqKHb7MgnSdDpoOVAa3yJnx/Ki1XNzXSjqaB6FcwqsQxnT8x9aLTrQRS0o2AqTHSfyp6i7ACWIA79BQB/aRzB7lkmpF21AWN9SfTTeqz9I2k0DT3KNPXaqtzpk/cQDvOvwFBpFGO7kdwEfGl2E1LAd5Op9d/yrCuYy6+7kDkOz8qB7PiauDbu9LoNpbwED1NVH6Uc6KqoO/U+n5VRCCmLgflrRBbl13nM7Hu2X0/KhKgGkD61E3J2E/rlSyse6gme/wCNRNwfy/Ol7IcTS0GwoI5ydh9aRVuJipFzQmNB0XRDzbAmcpI+o+dXqw+gXhmXmJ8x/P4VuVFKlSpUA71lXADCQDI8R/OkqomwVfQVN1nn5Ej5UyIBsB9fWgqGxJ95yJJiYGpkb8vpRPZBYJyLAgE6wBwBO1TxSMyFUbIx2blVBOhgTLu7n0+JlvjQXkZGGYPnU8jI05AacKMgAGggeEVDD2FRcqCB5nfc60SgVKlSoI0xNPUWoGdA24moXcSiGGdQeU6+m9EFCvxPjofkfgWoHtXw8kZoHMFZ8J8KnNAsvrrud/Hf5h6fEJI3oDTSFCsvmWR3ilhbbAHMIk85oBODJqaoeAgVay04UVMXVdLJ5/WjqtPm7jTCe4eGvz/CmGnilO8RP176YJ4mpARVRhPjnYauE7lGo1jU71SvLmMyx721NG6RGS4w5mR56/jVUMTsP151USVBT5gOX68KYoTuaQRR30CN0d/ypdo7CKTXI0AqBZjzqiTpzMmkCANqVm2x2E0b9l3zMFIjv3JB9IoAm6eGlRDHvq2gRRrJOvdx39Ki+JABCqACI76gEKYgUytpTVRIkVEvHAU8VFhQGwN8rcQk6TB8Dp9a6muNrrcLczorcwPXj8alUWlSpVAqVKlQKlSqLOBx/H0oJUqiH8R46fOkXoJVH2q/vD1FRcSNR6602bv+VBOovtU4pZaADGag9ksIA9e8EH4GrYFKgqphDMluMwOczue8t61ZyinpUCApUjQjiF4GTyXtH4UBaVQR5BJBWOcfShNjEEazMRHGdd/SgsUqjbeQDBEiYOh86lQKlSpUGN04kFXjeR6aj5msvMa6Dpe3mtNzWG9N/gTXOqaqJ0gKbNTq1URca0a1iMu2u3w/W1CfWhioLDYhjuxj8OFN7XkBPM1A8KRqy4JO5O/8qG1OaY0CSpzQ1Uk6Ak92tXbXRtxvux/Fp8N6gqE0xrYtdDfvP5KPqau2ujra/cB/i1+elNHNW7TN7qk+AJrouirbomVxEExtsdeHfNXQIpVFKlSpUEPacgT5R84pC5z/AB+NMV1pwlA+Y8qZqcIKRPKP14UEQpqQSognefLSPxpZjQEAoeY8h6/lThfGotdX99fUUH//2Q==",
+      "id": 3
+    }
+  ],
+  "orderhistory": [
+    {
+      "id": "_edzz9wzl4",
+      "data": [
+        {
+          "id": "_553ihoiv9",
+          "itemid": 11,
+          "image_url": "https://images.meesho.com/images/products/146981793/kzfs8_400.webp",
+          "type": "mens wear",
+          "price": 330,
+          "quantity": 1,
+          "totalprice": 330,
+          "size": "L",
+          "rating": 4.5,
+          "title": "Modern Men's Style"
+        }
+      ]
+    },
+    {
+      "id": "_61ocwermt",
+      "data": [
+        {
+          "id": "_76b14mr6n",
+          "itemid": 2,
+          "image_url": "https://images.meesho.com/images/products/338752419/iairl_400.webp",
+          "type": "mens wear",
+          "price": 280,
+          "quantity": 1,
+          "totalprice": 280,
+          "size": "L",
+          "rating": 4,
+          "title": "Urbane Stylish Men's Wear"
+        }
+      ]
+    },
+    {
+      "id": "_s0yitxw8l",
+      "data": [
+        {
+          "id": "_zzv9i5iea",
+          "itemid": 26,
+          "image_url": "https://images.meesho.com/images/products/145639651/rajwo_400.webp",
+          "type": "womens wear",
+          "price": 380,
+          "quantity": 1,
+          "totalprice": 380,
+          "size": "L",
+          "rating": 4.4,
+          "title": "Elegant Women's Wardrobe"
+        }
+      ]
+    },
+    {
+      "id": "_v8x9s1cio",
+      "data": [
+        {
+          "id": "_4t58952c8",
+          "itemid": 2,
+          "image_url": "https://images.meesho.com/images/products/338752419/iairl_400.webp",
+          "type": "mens wear",
+          "price": 280,
+          "quantity": 4,
+          "totalprice": 1120
+        },
+        {
+          "id": "_cyeeh40rk",
+          "itemid": 3,
+          "image_url": "https://images.meesho.com/images/products/291012699/2dokc_400.webp",
+          "type": "mens wear",
+          "price": 260,
+          "quantity": 1,
+          "totalprice": 260,
+          "size": "XL",
+          "rating": 4.5,
+          "title": "Elegant Men's Collection"
+        },
+        {
+          "id": "_caijo3jq5",
+          "itemid": 17,
+          "image_url": "https://images.meesho.com/images/products/47228178/gey7a_400.webp",
+          "type": "womens wear",
+          "price": 350,
+          "quantity": 1,
+          "totalprice": 350,
+          "size": "L",
+          "rating": 4.4,
+          "title": "Chic Women's Apparel"
+        },
+        {
+          "id": "_phl2t4sak",
+          "itemid": 16,
+          "image_url": "https://images.meesho.com/images/products/144335285/0dwfi_400.webp",
+          "type": "womens wear",
+          "price": 320,
+          "quantity": 3,
+          "totalprice": 960
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "itemid": 1,
+      "image_url": "https://images.meesho.com/images/products/169521851/4lf5y_400.webp",
+      "price": 250,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Glamorous Men's Wear",
+      "rating": 4
+    },
+    {
+      "itemid": 2,
+      "image_url": "https://images.meesho.com/images/products/338752419/iairl_400.webp",
+      "price": 280,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Urbane Stylish Men's Wear",
+      "rating": 4
+    },
+    {
+      "itemid": 3,
+      "image_url": "https://images.meesho.com/images/products/291012699/2dokc_400.webp",
+      "price": 260,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Elegant Men's Collection",
+      "rating": 4.5
+    },
+    {
+      "itemid": 4,
+      "image_url": "https://images.meesho.com/images/products/211250753/rq0qs_400.webp",
+      "price": 270,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Classic Men's Fashion",
+      "rating": 4.1
+    },
+    {
+      "itemid": 5,
+      "image_url": "https://images.meesho.com/images/products/5056779/n9hi0_400.webp",
+      "price": 290,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Modern Men's Attire",
+      "rating": 4.3
+    },
+    {
+      "itemid": 6,
+      "image_url": "https://images.meesho.com/images/products/294983029/b35qa_400.webp",
+      "price": 300,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Trendy Men's Fashion",
+      "rating": 4.4
+    },
+    {
+      "itemid": 7,
+      "image_url": "https://images.meesho.com/images/products/303417050/twxac_400.webp",
+      "price": 270,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Men's Wardrobe",
+      "rating": 4.2
+    },
+    {
+      "itemid": 8,
+      "image_url": "https://images.meesho.com/images/products/143657809/slrtj_400.webp",
+      "price": 310,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Chic Men's Apparel",
+      "rating": 4.6
+    },
+    {
+      "itemid": 9,
+      "image_url": "https://images.meesho.com/images/products/186145009/ug0jq_400.webp",
+      "price": 280,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Elegant Men's Wear",
+      "rating": 4
+    },
+    {
+      "itemid": 10,
+      "image_url": "https://images.meesho.com/images/products/315319892/tdx50_400.webp",
+      "price": 320,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Men's Fashion",
+      "rating": 4.3
+    },
+    {
+      "itemid": 11,
+      "image_url": "https://images.meesho.com/images/products/146981793/kzfs8_400.webp",
+      "price": 330,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Modern Men's Style",
+      "rating": 4.5
+    },
+    {
+      "itemid": 12,
+      "image_url": "https://images.meesho.com/images/products/132352854/aybya_400.webp",
+      "price": 290,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Classic Men's Apparel",
+      "rating": 4.2
+    },
+    {
+      "itemid": 13,
+      "image_url": "https://images.meesho.com/images/products/41237705/rtawp_400.webp",
+      "price": 310,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Men's Collection",
+      "rating": 4.4
+    },
+    {
+      "itemid": 14,
+      "image_url": "https://images.meesho.com/images/products/219179384/c0jjz_400.webp",
+      "price": 340,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Chic Men's Wardrobe",
+      "rating": 4.3
+    },
+    {
+      "itemid": 15,
+      "image_url": "https://images.meesho.com/images/products/303764935/rweal_400.webp",
+      "price": 300,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Trendy Men's Attire",
+      "rating": 4.1
+    },
+    {
+      "itemid": 16,
+      "image_url": "https://images.meesho.com/images/products/144335285/0dwfi_400.webp",
+      "price": 320,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Elegant Women's Fashion",
+      "rating": 4.5
+    },
+    {
+      "itemid": 17,
+      "image_url": "https://images.meesho.com/images/products/47228178/gey7a_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Chic Women's Apparel",
+      "rating": 4.4
+    },
+    {
+      "itemid": 18,
+      "image_url": "https://images.meesho.com/images/products/283965203/egmyz_400.webp",
+      "price": 310,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Urbane Women's Fashion",
+      "rating": 4.2
+    },
+    {
+      "itemid": 19,
+      "image_url": "https://images.meesho.com/images/products/79026897/uzrxt_400.webp",
+      "price": 330,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Modern Women's Style",
+      "rating": 4.3
+    },
+    {
+      "itemid": 20,
+      "image_url": "https://images.meesho.com/images/products/280120496/uoykz_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Chic Women's Wardrobe",
+      "rating": 4.6
+    },
+    {
+      "itemid": 21,
+      "image_url": "https://images.meesho.com/images/products/124888351/r5xh9_400.webp",
+      "price": 340,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Elegant Women's Attire",
+      "rating": 4
+    },
+    {
+      "itemid": 22,
+      "image_url": "https://images.meesho.com/images/products/191732645/phtgq_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Urbane Women's Collection",
+      "rating": 4.2
+    },
+    {
+      "itemid": 23,
+      "image_url": "https://images.meesho.com/images/products/276181482/0mg2d_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Modern Women's Fashion",
+      "rating": 4.3
+    },
+    {
+      "itemid": 24,
+      "image_url": "https://images.meesho.com/images/products/25066861/ee992_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Chic Women's Style",
+      "rating": 4.5
+    },
+    {
+      "itemid": 25,
+      "image_url": "https://images.meesho.com/images/products/97298781/c54xf_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Trendy Women's Attire",
+      "rating": 4.1
+    },
+    {
+      "itemid": 26,
+      "image_url": "https://images.meesho.com/images/products/145639651/rajwo_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Elegant Women's Wardrobe",
+      "rating": 4.4
+    },
+    {
+      "itemid": 27,
+      "image_url": "https://images.meesho.com/images/products/226961659/98szn_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Modern Women's Apparel",
+      "rating": 4.3
+    },
+    {
+      "itemid": 28,
+      "image_url": "https://images.meesho.com/images/products/305139280/pifqs_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Chic Women's Fashion",
+      "rating": 4.2
+    },
+    {
+      "itemid": 29,
+      "image_url": "https://images.meesho.com/images/products/167470645/od0ik_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Urbane Women's Style",
+      "rating": 4.5
+    },
+    {
+      "itemid": 30,
+      "image_url": "https://images.meesho.com/images/products/241349208/oyhxa_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Trendy Women's Fashion",
+      "rating": 4.1
+    },
+    {
+      "itemid": 31,
+      "image_url": "https://images.meesho.com/images/products/177403795/rbpck_400.webp",
+      "price": 350,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Modern Men's Collection",
+      "rating": 4.3
+    },
+    {
+      "itemid": 32,
+      "image_url": "https://images.meesho.com/images/products/321720782/v9je8_400.webp",
+      "price": 380,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Chic Men's Attire",
+      "rating": 4.4
+    },
+    {
+      "itemid": 33,
+      "image_url": "https://images.meesho.com/images/products/209993379/3jimk_400.webp",
+      "price": 360,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Trendy Men's Fashion",
+      "rating": 4.2
+    },
+    {
+      "itemid": 34,
+      "image_url": "https://images.meesho.com/images/products/201329434/gqqq8_400.webp",
+      "price": 350,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Men's Style",
+      "rating": 4.1
+    },
+    {
+      "itemid": 35,
+      "image_url": "https://images.meesho.com/images/products/325658285/io2jm_400.webp",
+      "price": 380,
+      "type": "mens wear",
+      "size": "L",
+      "title": "Modern Men's Wardrobe",
+      "rating": 4.3
+    },
+    {
+      "itemid": 36,
+      "image_url": "https://images.meesho.com/images/products/305566773/z7a2f_400.webp",
+      "price": 360,
+      "type": "mens wear",
+      "size": "XL",
+      "title": "Chic Men's Fashion",
+      "rating": 4.2
+    },
+    {
+      "itemid": 37,
+      "image_url": "https://images.meesho.com/images/products/148844375/aflgl_400.webp",
+      "price": 350,
+      "type": "mens wear",
+      "size": "M",
+      "title": "Urbane Men's Apparel",
+      "rating": 4.1
+    },
+    {
+      "itemid": 38,
+      "image_url": "https://images.meesho.com/images/products/156356992/dppy6_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Chic Women's Style",
+      "rating": 4.3
+    },
+    {
+      "itemid": 39,
+      "image_url": "https://images.meesho.com/images/products/192046326/czugm_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Modern Women's Wardrobe",
+      "rating": 4.2
+    },
+    {
+      "itemid": 40,
+      "image_url": "https://images.meesho.com/images/products/305566773/z7a2f_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Trendy Women's Fashion",
+      "rating": 4.1
+    },
+    {
+      "itemid": 41,
+      "image_url": "https://images.meesho.com/images/products/272321350/y6ggr_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Elegant Women's Attire",
+      "rating": 4.3
+    },
+    {
+      "itemid": 42,
+      "image_url": "https://images.meesho.com/images/products/212131204/fasew_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Chic Women's Wardrobe",
+      "rating": 4.2
+    },
+    {
+      "itemid": 43,
+      "image_url": "https://images.meesho.com/images/products/264131427/jtdg6_400.webp",
+      "price": 350,
+      "type": "womens wear",
+      "size": "M",
+      "title": "Modern Women's Fashion",
+      "rating": 4.1
+    },
+    {
+      "itemid": 44,
+      "image_url": "https://images.meesho.com/images/products/264131427/jtdg6_400.webp",
+      "price": 380,
+      "type": "womens wear",
+      "size": "L",
+      "title": "Trendy Women's Style",
+      "rating": 4.3
+    },
+    {
+      "itemid": 45,
+      "image_url": "https://images.meesho.com/images/products/129495508/08jzy_400.webp",
+      "price": 360,
+      "type": "womens wear",
+      "size": "XL",
+      "title": "Chic Women's Tops & Tunics",
+      "rating": 4.5
+    }
+  ]
+}

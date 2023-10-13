@@ -1,0 +1,37 @@
+.display-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .toggle-fashion {
+    margin-bottom: 20px;
+  }
+  
+  .display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-item {
+    margin: 10px;
+    flex: 1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .card-item {
+      flex: 1 1 calc(50% - 20px);
+      max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .card-item {
+      flex: 1 1 calc(100% - 20px);
+      max-width: calc(100% - 20px);
+    }
+  }
+  

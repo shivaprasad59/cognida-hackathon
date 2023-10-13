@@ -1,0 +1,47 @@
+
+.login-form{
+    height: max-content;
+    box-shadow: 10px 4px 25px grey;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 2%;
+}
+.button-login{
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+.button-login{
+    width: 40%;
+}
+.text-login{
+    margin-left: 42%;
+}
+.login-title{
+    margin-left: 40%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.alter-login{
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+.login-username{
+    width: 20vh;
+}
+
+
+
+
+
+
+
+
+
+
+

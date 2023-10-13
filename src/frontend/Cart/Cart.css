@@ -1,0 +1,58 @@
+/* Cart.css */
+
+/* ... existing styles ... */
+
+.item-cart {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    flex: 1; /* Allow items to fill available space within the row */
+}
+
+.img-cart {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.cart-details {
+    flex: 1;
+}
+
+.cart-quantity {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantity-buttons {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Push the quantity adjustments to the right */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .item-cart {
+        flex-direction: column;
+    }
+
+    .img-cart {
+        width: 260px; /* Adjust the width to your preference for smaller screens */
+        height: 200px; /* Adjust the height proportionally */
+    }
+    .quantity-buttons {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .totalprice-cart{
+        margin-left: 70%;
+    }
+    .button-cart-buy{
+        margin-left:65%
+    }
+
+}
+/* marginLeft:"65%" */

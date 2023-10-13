@@ -1,0 +1,39 @@
+
+.signup-form{
+    height: max-content;
+    box-shadow: 10px 4px 25px grey;
+    border-radius: 10px;
+    width: 75%;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding: 2%;
+}
+.button-signup{
+    margin: auto;
+    margin-left: 40%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+}
+.button-signup{
+    width: 40%;
+}
+.text-signup{
+    margin-left: 50%;
+}
+.signup-title{
+    margin-left: 40%;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+.alter-login{
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    background-color: white;
+}
+
+
+
+
+
+

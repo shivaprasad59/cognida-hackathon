@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import React, { useEffect, useState } from 'react'
+import {Routes,Route} from 'react-router-dom'
+import Landing from './frontend/Landing/Landing'
+import Navbar from './frontend/NavBar/Navbar.tsx'
+import Filter from './frontend/Components/Filters/Filter.tsx'
+import Cart from './frontend/Cart/Cart'
+import Home from './frontend/Home/Home'
+import Account from './frontend/Account/Account'
+import Sample from './frontend/Sample'
+import Copyright from './frontend/Components/Footer/Copyright'
+const App = () => {
+  
+  
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Landing />} />
+        <Route path='/Dashboard' element={<Navbar />}/>
+        <Route path='/shopping' element={<Filter  />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/account' element={<Account/>}/>
+        <Route path='/sample' element={<Sample/>}/>
+      </Routes>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
