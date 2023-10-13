@@ -28,7 +28,10 @@ const Cart = () => {
             type: item.type,
             price: item.price,
             quantity: q,
-            totalprice: money
+            totalprice: money,
+            title:item.title,
+                size:item.size,
+                rating:item.rating
         })
             .then((res) => {
                 console.log(res);
@@ -49,7 +52,10 @@ const Cart = () => {
                 type: item.type,
                 price: item.price,
                 quantity: q,
-                totalprice: money
+                totalprice: money,
+                title:item.title,
+                size:item.size,
+                rating:item.rating
             })
                 .then((res) => {
                     console.log(res);
@@ -147,6 +153,7 @@ const Cart = () => {
 
     return (
         <div className='cart-container'>
+            <h2 style={{marginLeft:10}}>CART</h2>
             <div className='cart-items'>
                 {data.map((item) => (
                     <div key={item.itemid} className='item-cart'>
